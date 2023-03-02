@@ -1,0 +1,48 @@
+.select{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+
+    button{
+        color: #000;
+        background: #fff;
+        padding: 0.65rem 1rem;
+        border: none;
+        margin-top: 1rem;
+        cursor: pointer;
+        font-size: 1.35rem;   
+        font-family: 'Poppins';
+        border-radius: 10px;
+    }
+}
+
+.habilidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    p{
+        font-size: 1.2rem;
+        color: #fff;    
+        line-height: 1.6rem;
+    }
+}
+.icon{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 6rem;
+
+}

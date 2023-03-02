@@ -1,0 +1,38 @@
+.contact{
+    background-color: #0e8ac4;
+    height: 82px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 120px;
+    .redes{
+        display: flex;
+        flex-direction: row;
+        color: #f7ecec;
+        @media screen and (max-width: 950px) {
+            flex-direction: column;;
+        }
+    }
+    p{
+        padding: 10px;
+        font-size: 1.05rem;
+        display: flex;
+        gap: 5px;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+        color: #efe7e7;
+    }
+    .name{
+        font-size: 1.1rem;
+        font-family: cursive;
+        background-color: #8c12f0;
+        border-radius: 20px;
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
+    }
+    
+}

@@ -1,0 +1,53 @@
+.imagesProyect{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    @media screen and (max-width: 600px) {
+        grid-template-columns: 1fr;
+    }
+    .contenproyect{
+        max-width: 560px;
+        height: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        @media screen and (max-width: 600px) {
+            max-width: 350px;
+        }
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .hoverLayer{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        background: #8c12f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        a{
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+            svg{
+                color: #fff;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+
+
