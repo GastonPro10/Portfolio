@@ -50,13 +50,13 @@ export default function Navbar() {
                         <a href={`#home`}>Home</a>
                     </li>
                     <li>
-                        <a href={`#about`}>About</a>
+                        <a href={`#about`}>Sobre mi</a>
                     </li>
                     <li>
                         <a href={`#portfolio`}>Proyectos</a>
                     </li>
                     <li>
-                        <a href={`#skills`}>Skills</a>
+                        <a href={`#skills`}>Habilidades</a>
                     </li>
 {/*                     <li>
                         <a href={`#contact`}>Contacto</a>
@@ -88,13 +88,13 @@ export default function Navbar() {
                         <a href={`#home`}>Home</a>
                     </li>
                     <li onClick={() => {setToggle(false)}}>
-                        <a href={`#about`}>About</a>
+                        <a href={`#about`}>Sobre mi</a>
                     </li>
                     <li onClick={() => {setToggle(false)}}>
                         <a href={`#portfolio`}>Proyectos</a>
                     </li>
                     <li onClick={() => {setToggle(false)}}>
-                        <a href={`#skills`}>Skills</a>
+                        <a href={`#skills`}>Habilidades</a>
                     </li>
 {/*                     <li onClick={() => {setToggle(false)}}>
                         <a href={`#contact`}>Contacto</a>
